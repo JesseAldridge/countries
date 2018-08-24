@@ -53,7 +53,7 @@ Denmark
 ...
 '''
 
-def main():
+def txt_dump_to_dicts():
   with open('us_news_dump.txt') as f:
     text = f.read()
   parser = Parser(text)
@@ -88,6 +88,13 @@ def main():
     print ' country_dict:', json.dumps(country_dict, indent=2)
     assert country_dict['ppp'].startswith('$')
     country_dicts.append(country_dict)
+  return country_dicts
+
+def main():
+  country_dicts = txt_dump_to_dicts()
+  countries_json = json.dumps(country_dicts, indent=2)
+  with open('countries.json', 'w') as f:
+    f.write(countries_json)
 
 if __name__ == '__main__':
   main()
