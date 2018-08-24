@@ -2,11 +2,12 @@ import re
 
 import utils
 
-countries_merged = utils.load_json('countries_merged.json')
+countries_merged = utils.load_json('_1_countries_merged.json')
 
 for country_name, country_dict in countries_merged.iteritems():
   for key, val in country_dict.iteritems():
-    if isinstance(val, basestring):
+    # 19.7 million -> 19,700,000
+    if isinstance(val, basestring) and re.search('[0-9]', val):
       # "$186.7 billion" -> "186.7 billion"
       # "#36" -> "36"
       if re.match(r'^[\$#]', val):
@@ -33,4 +34,4 @@ for country_name, country_dict in countries_merged.iteritems():
         base_val = round(base_val, 4) # floating point imprecision
       country_dict[key] = base_val
 
-utils.write_json('countries_numbers.json', countries_merged)
+utils.write_json('_2_countries_numbers.json', countries_merged)

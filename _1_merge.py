@@ -11,7 +11,7 @@ def normalize_name(name):
 
 # Mipex
 
-with open('countries_mipex.json') as f:
+with open('_0_countries_mipex.json') as f:
   countries_mipex = json.loads(f.read())
 
 for country_mipex in countries_mipex:
@@ -28,7 +28,7 @@ for country_mipex in countries_mipex:
 
 # US News
 
-with open('countries_us_news.json') as f:
+with open('_0_countries_us_news.json') as f:
   countries_us_news = json.loads(f.read())
 
 for country_us_news in countries_us_news:
@@ -41,10 +41,11 @@ for country_us_news in countries_us_news:
   name_to_merged.setdefault(norm_name, {})
   for key, attr in country_us_news.iteritems():
     name_to_merged[norm_name][key] = attr
+  name_to_merged[norm_name]['name'] = norm_name
 
 for country_dict in name_to_merged.values():
   assert len(country_dict) > 2
 
 countries_json = json.dumps(name_to_merged, indent=2)
-with open('countries_merged.json', 'w') as f:
+with open('_1_countries_merged.json', 'w') as f:
   f.write(countries_json)

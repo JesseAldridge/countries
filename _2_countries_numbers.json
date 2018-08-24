@@ -1,484 +1,558 @@
 {
   "bahrain": {
     "gdp": 31900000000.0, 
-    "ppp": 50719.0, 
+    "ppp": 50719, 
+    "name": "bahrain", 
     "rank": 61.0, 
     "population": 1400000.0
   }, 
   "romania": {
     "gdp": 186700000000.0, 
-    "mipex_score": 45, 
-    "ppp": 22349.0, 
+    "name": "romania", 
     "rank": 39.0, 
+    "ppp": 22349, 
+    "mipex_score": 45, 
     "population": 19700000.0
   }, 
   "finland": {
     "gdp": 236800000000.0, 
-    "mipex_score": 69, 
-    "ppp": 42261.0, 
+    "name": "finland", 
     "rank": 7.0, 
+    "ppp": 42261, 
+    "mipex_score": 69, 
     "population": 5500000.0
   }, 
   "czech republic": {
     "gdp": 192900000000.0, 
-    "mipex_score": 45, 
-    "ppp": 33529.0, 
+    "name": "czech republic", 
     "rank": 26.0, 
+    "ppp": 33529, 
+    "mipex_score": 45, 
     "population": 10600000.0
   }, 
-  "portugal": {
-    "gdp": 204600000000.0, 
-    "mipex_score": 75, 
-    "ppp": 28916.0, 
-    "rank": 20.0, 
-    "population": 10300000.0
+  "estonia": {
+    "mipex_score": 46, 
+    "name": "estonia", 
+    "rank": 22.0
   }, 
   "mexico": {
     "gdp": 1000000000000.0, 
-    "ppp": 18935.0, 
+    "ppp": 18935, 
+    "name": "mexico", 
     "rank": 42.0, 
     "population": 127500000.0
   }, 
   "tunisia": {
     "gdp": 42100000000.0, 
-    "ppp": 11631.0, 
+    "ppp": 11631, 
+    "name": "tunisia", 
     "rank": 51.0, 
     "population": 11400000.0
   }, 
   "greece": {
     "gdp": 194600000000.0, 
-    "mipex_score": 44, 
-    "ppp": 26829.0, 
+    "name": "greece", 
     "rank": 29.0, 
+    "ppp": 26829, 
+    "mipex_score": 44, 
     "population": 10700000.0
   }, 
   "india": {
     "gdp": 2300000000000.0, 
-    "ppp": 6694.0, 
+    "ppp": 6694, 
+    "name": "india", 
     "rank": 32.0, 
     "population": 1300000000.0
   }, 
   "azerbaijan": {
     "gdp": 37800000000.0, 
-    "ppp": 17453.0, 
+    "ppp": 17453, 
+    "name": "azerbaijan", 
     "rank": 67.0, 
     "population": 9800000.0
   }, 
   "united states": {
     "gdp": 18600000000000.0, 
-    "ppp": 57608.0, 
+    "name": "united states", 
     "rank": 17.0, 
+    "ppp": 57608, 
+    "mipex_score": 63, 
     "population": 323100000.0
   }, 
   "malaysia": {
     "gdp": 296400000000.0, 
-    "ppp": 27292.0, 
+    "ppp": 27292, 
+    "name": "malaysia", 
     "rank": 28.0, 
     "population": 31200000.0
   }, 
   "austria": {
     "gdp": 386400000000.0, 
-    "mipex_score": 50, 
-    "ppp": 47726.0, 
+    "name": "austria", 
     "rank": 11.0, 
+    "ppp": 47726, 
+    "mipex_score": 50, 
     "population": 8700000.0
   }, 
   "australia": {
     "gdp": 1200000000000.0, 
-    "mipex_score": 66, 
-    "ppp": 48712.0, 
+    "name": "australia", 
     "rank": 5.0, 
+    "ppp": 48712, 
+    "mipex_score": 66, 
     "population": 24100000.0
   }, 
   "luxembourg": {
     "gdp": 59900000000.0, 
-    "mipex_score": 57, 
-    "ppp": 105741.0, 
+    "name": "luxembourg", 
     "rank": 12.0, 
+    "ppp": 105741, 
+    "mipex_score": 57, 
     "population": 583000.0
   }, 
   "colombia": {
     "gdp": 282500000000.0, 
-    "ppp": 14126.0, 
+    "ppp": 14126, 
+    "name": "colombia", 
     "rank": 65.0, 
     "population": 48700000.0
   }, 
   "japan": {
     "gdp": 4900000000000.0, 
-    "mipex_score": 44, 
-    "ppp": 41220.0, 
+    "name": "japan", 
     "rank": 14.0, 
+    "ppp": 41220, 
+    "mipex_score": 44, 
     "population": 127000000.0
   }, 
   "turkey": {
     "gdp": 857700000000.0, 
-    "mipex_score": 25, 
-    "ppp": 24986.0, 
+    "name": "turkey", 
     "rank": 46.0, 
+    "ppp": 24986, 
+    "mipex_score": 25, 
     "population": 79500000.0
   }, 
   "hungary": {
     "gdp": 124300000000.0, 
-    "mipex_score": 45, 
-    "ppp": 27475.0, 
+    "name": "hungary", 
     "rank": 27.0, 
+    "ppp": 27475, 
+    "mipex_score": 45, 
     "population": 9800000.0
   }, 
   "new zealand": {
     "gdp": 185000000000.0, 
-    "mipex_score": 70, 
-    "ppp": 37165.0, 
+    "name": "new zealand", 
     "rank": 9.0, 
+    "ppp": 37165, 
+    "mipex_score": 70, 
     "population": 4700000.0
   }, 
   "cyprus": {
     "mipex_score": 35, 
+    "name": "cyprus", 
     "rank": 36.0
   }, 
   "brazil": {
     "gdp": 1800000000000.0, 
-    "ppp": 15238.0, 
+    "ppp": 15238, 
+    "name": "brazil", 
     "rank": 52.0, 
     "population": 207700000.0
   }, 
   "qatar": {
     "gdp": 152500000000.0, 
-    "ppp": 125160.0, 
+    "ppp": 125160, 
+    "name": "qatar", 
     "rank": 48.0, 
     "population": 2600000.0
   }, 
   "italy": {
     "gdp": 1800000000000.0, 
-    "mipex_score": 59, 
-    "ppp": 36823.0, 
+    "name": "italy", 
     "rank": 22.0, 
+    "ppp": 36823, 
+    "mipex_score": 59, 
     "population": 60600000.0
   }, 
-  "estonia": {
-    "mipex_score": 46, 
-    "rank": 22.0
-  }, 
-  "usa": {
-    "mipex_score": 63, 
-    "rank": 9.0
+  "portugal": {
+    "gdp": 204600000000.0, 
+    "name": "portugal", 
+    "rank": 20.0, 
+    "ppp": 28916, 
+    "mipex_score": 75, 
+    "population": 10300000.0
   }, 
   "south africa": {
     "gdp": 294800000000.0, 
-    "ppp": 13291.0, 
+    "ppp": 13291, 
+    "name": "south africa", 
     "rank": 62.0, 
     "population": 55900000.0
   }, 
   "panama": {
     "gdp": 55200000000.0, 
-    "ppp": 22989.0, 
+    "ppp": 22989, 
+    "name": "panama", 
     "rank": 55.0, 
     "population": 4000000.0
   }, 
   "uruguay": {
     "gdp": 52400000000.0, 
-    "ppp": 21395.0, 
+    "ppp": 21395, 
+    "name": "uruguay", 
     "rank": 50.0, 
     "population": 3400000.0
   }, 
   "lithuania": {
     "mipex_score": 37, 
+    "name": "lithuania", 
     "rank": 34.0
   }, 
   "malta": {
     "mipex_score": 40, 
+    "name": "malta", 
     "rank": 33.0
   }, 
   "france": {
     "gdp": 2500000000000.0, 
-    "mipex_score": 54, 
-    "ppp": 42336.0, 
+    "name": "france", 
     "rank": 16.0, 
+    "ppp": 42336, 
+    "mipex_score": 54, 
     "population": 66900000.0
   }, 
   "united kingdom": {
     "gdp": 2600000000000.0, 
-    "mipex_score": 57, 
-    "ppp": 42421.0, 
+    "name": "united kingdom", 
     "rank": 13.0, 
+    "ppp": 42421, 
+    "mipex_score": 57, 
     "population": 65600000.0
   }, 
   "egypt": {
     "gdp": 336300000000.0, 
-    "ppp": 12551.0, 
+    "ppp": 12551, 
+    "name": "egypt", 
     "rank": 70.0, 
     "population": 95700000.0
   }, 
   "latvia": {
     "gdp": 27700000000.0, 
-    "mipex_score": 31, 
-    "ppp": 25702.0, 
+    "name": "latvia", 
     "rank": 44.0, 
+    "ppp": 25702, 
+    "mipex_score": 31, 
     "population": 2000000.0
   }, 
   "slovakia": {
     "mipex_score": 37, 
+    "name": "slovakia", 
     "rank": 34.0
   }, 
   "philippines": {
     "gdp": 304900000000.0, 
-    "ppp": 7739.0, 
+    "ppp": 7739, 
+    "name": "philippines", 
     "rank": 37.0, 
     "population": 103300000.0
   }, 
   "ireland": {
     "gdp": 294100000000.0, 
-    "mipex_score": 52, 
-    "ppp": 69276.0, 
+    "name": "ireland", 
     "rank": 15.0, 
+    "ppp": 69276, 
+    "mipex_score": 52, 
     "population": 4800000.0
   }, 
   "iceland": {
     "mipex_score": 45, 
+    "name": "iceland", 
     "rank": 23.0
   }, 
   "switzerland": {
     "gdp": 659800000000.0, 
-    "mipex_score": 49, 
-    "ppp": 60374.0, 
+    "name": "switzerland", 
     "rank": 6.0, 
+    "ppp": 60374, 
+    "mipex_score": 49, 
     "population": 8400000.0
   }, 
   "south korea": {
     "gdp": 1400000000000.0, 
-    "mipex_score": 53, 
-    "ppp": 37731.0, 
+    "name": "south korea", 
     "rank": 24.0, 
+    "ppp": 37731, 
+    "mipex_score": 53, 
     "population": 51200000.0
   }, 
   "bolivia": {
     "gdp": 33800000000.0, 
-    "ppp": 7229.0, 
+    "ppp": 7229, 
+    "name": "bolivia", 
     "rank": 63.0, 
     "population": 10900000.0
   }, 
   "norway": {
     "gdp": 370600000000.0, 
-    "mipex_score": 69, 
-    "ppp": 69407.0, 
+    "name": "norway", 
     "rank": 4.0, 
+    "ppp": 69407, 
+    "mipex_score": 69, 
     "population": 5200000.0
   }, 
   "ecuador": {
     "gdp": 97800000000.0, 
-    "ppp": 11185.0, 
+    "ppp": 11185, 
+    "name": "ecuador", 
     "rank": 59.0, 
     "population": 16400000.0
   }, 
   "ghana": {
     "gdp": 42700000000.0, 
-    "ppp": 4383.0, 
+    "ppp": 4383, 
+    "name": "ghana", 
     "rank": 66.0, 
     "population": 28200000.0
   }, 
   "canada": {
     "gdp": 1500000000000.0, 
-    "mipex_score": 68, 
-    "ppp": 46441.0, 
+    "name": "canada", 
     "rank": 1.0, 
+    "ppp": 46441, 
+    "mipex_score": 68, 
     "population": 36300000.0
   }, 
   "israel": {
     "gdp": 318700000000.0, 
-    "ppp": 35220.0, 
+    "ppp": 35220, 
+    "name": "israel", 
     "rank": 35.0, 
     "population": 8500000.0
   }, 
   "belarus": {
     "gdp": 47400000000.0, 
-    "ppp": 18073.0, 
+    "ppp": 18073, 
+    "name": "belarus", 
     "rank": 60.0, 
     "population": 9500000.0
   }, 
   "peru": {
     "gdp": 192100000000.0, 
-    "ppp": 12913.0, 
+    "ppp": 12913, 
+    "name": "peru", 
     "rank": 49.0, 
     "population": 31800000.0
   }, 
   "singapore": {
     "gdp": 297000000000.0, 
-    "ppp": 87832.0, 
+    "ppp": 87832, 
+    "name": "singapore", 
     "rank": 18.0, 
     "population": 5600000.0
   }, 
   "united arab emirates": {
     "gdp": 348700000000.0, 
-    "ppp": 68092.0, 
+    "ppp": 68092, 
+    "name": "united arab emirates", 
     "rank": 25.0, 
     "population": 9300000.0
   }, 
   "saudi arabia": {
     "gdp": 646400000000.0, 
-    "ppp": 55331.0, 
+    "ppp": 55331, 
+    "name": "saudi arabia", 
     "rank": 41.0, 
     "population": 32300000.0
   }, 
   "costa rica": {
     "gdp": 57400000000.0, 
-    "ppp": 16434.0, 
+    "ppp": 16434, 
+    "name": "costa rica", 
     "rank": 47.0, 
     "population": 4900000.0
   }, 
   "slovenia": {
     "gdp": 44000000000.0, 
-    "mipex_score": 44, 
-    "ppp": 32216.0, 
+    "name": "slovenia", 
     "rank": 36.0, 
+    "ppp": 32216, 
+    "mipex_score": 44, 
     "population": 2100000.0
   }, 
   "guatemala": {
     "gdp": 68800000000.0, 
-    "ppp": 7945.0, 
+    "ppp": 7945, 
+    "name": "guatemala", 
     "rank": 68.0, 
     "population": 16600000.0
   }, 
   "germany": {
     "gdp": 3500000000000.0, 
-    "mipex_score": 61, 
-    "ppp": 48449.0, 
+    "name": "germany", 
     "rank": 10.0, 
+    "ppp": 48449, 
+    "mipex_score": 61, 
     "population": 82700000.0
   }, 
   "chile": {
     "gdp": 247000000000.0, 
-    "ppp": 24089.0, 
+    "ppp": 24089, 
+    "name": "chile", 
     "rank": 43.0, 
     "population": 17900000.0
   }, 
   "belgium": {
     "mipex_score": 67, 
+    "name": "belgium", 
     "rank": 7.0
   }, 
   "thailand": {
     "gdp": 406800000000.0, 
-    "ppp": 16885.0, 
+    "ppp": 16885, 
+    "name": "thailand", 
     "rank": 30.0, 
     "population": 68900000.0
   }, 
   "myanmar": {
     "gdp": 67400000000.0, 
-    "ppp": 5804.0, 
+    "ppp": 5804, 
+    "name": "myanmar", 
     "rank": 58.0, 
     "population": 52900000.0
   }, 
   "kazakhstan": {
     "gdp": 133700000000.0, 
-    "ppp": 25167.0, 
+    "ppp": 25167, 
+    "name": "kazakhstan", 
     "rank": 64.0, 
     "population": 17800000.0
   }, 
   "argentina": {
     "gdp": 545900000000.0, 
-    "ppp": 20053.0, 
+    "ppp": 20053, 
+    "name": "argentina", 
     "rank": 56.0, 
     "population": 43800000.0
   }, 
   "spain": {
     "gdp": 1200000000000.0, 
-    "mipex_score": 60, 
-    "ppp": 36347.0, 
+    "name": "spain", 
     "rank": 19.0, 
+    "ppp": 36347, 
+    "mipex_score": 60, 
     "population": 46400000.0
   }, 
   "kenya": {
     "gdp": 70500000000.0, 
-    "ppp": 3364.0, 
+    "ppp": 3364, 
+    "name": "kenya", 
     "rank": 57.0, 
     "population": 48500000.0
   }, 
   "netherlands": {
     "gdp": 770800000000.0, 
-    "mipex_score": 60, 
-    "ppp": 51249.0, 
+    "name": "netherlands", 
     "rank": 8.0, 
+    "ppp": 51249, 
+    "mipex_score": 60, 
     "population": 17000000.0
   }, 
   "denmark": {
     "gdp": 306100000000.0, 
-    "mipex_score": 59, 
-    "ppp": 48230.0, 
+    "name": "denmark", 
     "rank": 2.0, 
+    "ppp": 48230, 
+    "mipex_score": 59, 
     "population": 5700000.0
   }, 
   "tanzania": {
     "gdp": 47400000000.0, 
-    "ppp": 3090.0, 
+    "ppp": 3090, 
+    "name": "tanzania", 
     "rank": 69.0, 
     "population": 55600000.0
   }, 
   "indonesia": {
     "gdp": 932300000000.0, 
-    "ppp": 11717.0, 
+    "ppp": 11717, 
+    "name": "indonesia", 
     "rank": 34.0, 
     "population": 261100000.0
   }, 
   "russia": {
     "gdp": 1300000000000.0, 
-    "ppp": 26926.0, 
+    "ppp": 26926, 
+    "name": "russia", 
     "rank": 38.0, 
     "population": 144300000.0
   }, 
   "morocco": {
     "gdp": 101400000000.0, 
-    "ppp": 8160.0, 
+    "ppp": 8160, 
+    "name": "morocco", 
     "rank": 53.0, 
     "population": 35300000.0
   }, 
   "sweden": {
     "gdp": 511000000000.0, 
-    "mipex_score": 78, 
-    "ppp": 49759.0, 
+    "name": "sweden", 
     "rank": 3.0, 
+    "ppp": 49759, 
+    "mipex_score": 78, 
     "population": 9900000.0
   }, 
   "vietnam": {
     "gdp": 202600000000.0, 
-    "ppp": 6423.0, 
+    "ppp": 6423, 
+    "name": "vietnam", 
     "rank": 40.0, 
     "population": 92700000.0
   }, 
   "croatia": {
     "gdp": 50400000000.0, 
-    "mipex_score": 43, 
-    "ppp": 22937.0, 
+    "name": "croatia", 
     "rank": 33.0, 
+    "ppp": 22937, 
+    "mipex_score": 43, 
     "population": 4200000.0
   }, 
   "sri lanka": {
     "gdp": 81300000000.0, 
-    "ppp": 12285.0, 
+    "ppp": 12285, 
+    "name": "sri lanka", 
     "rank": 54.0, 
     "population": 21200000.0
   }, 
   "china": {
     "gdp": 11200000000000.0, 
-    "ppp": 15395.0, 
+    "ppp": 15395, 
+    "name": "china", 
     "rank": 21.0, 
     "population": 1400000000.0
   }, 
   "dominican republic": {
     "gdp": 71600000000.0, 
-    "ppp": 16071.0, 
+    "ppp": 16071, 
+    "name": "dominican republic", 
     "rank": 45.0, 
     "population": 10600000.0
   }, 
   "poland": {
     "gdp": 469500000000.0, 
-    "mipex_score": 41, 
-    "ppp": 27690.0, 
+    "name": "poland", 
     "rank": 23.0, 
+    "ppp": 27690, 
+    "mipex_score": 41, 
     "population": 37900000.0
   }, 
   "bulgaria": {
     "gdp": 52400000000.0, 
-    "mipex_score": 42, 
-    "ppp": 20355.0, 
+    "name": "bulgaria", 
     "rank": 31.0, 
+    "ppp": 20355, 
+    "mipex_score": 42, 
     "population": 7100000.0
   }
 }

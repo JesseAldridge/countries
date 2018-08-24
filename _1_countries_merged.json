@@ -2,6 +2,7 @@
   "ghana": {
     "gdp": "$42.7 billion", 
     "ppp": 4383, 
+    "name": "ghana", 
     "rank": "#66", 
     "population": "28.2 million"
   }, 
@@ -16,6 +17,7 @@
   "indonesia": {
     "gdp": "$932.3 billion", 
     "ppp": 11717, 
+    "name": "indonesia", 
     "rank": "#34", 
     "population": "261.1 million"
   }, 
@@ -43,36 +45,42 @@
   "mexico": {
     "gdp": "$1.0 trillion", 
     "ppp": 18935, 
+    "name": "mexico", 
     "rank": "#42", 
     "population": "127.5 million"
   }, 
   "tunisia": {
     "gdp": "$42.1 billion", 
     "ppp": 11631, 
+    "name": "tunisia", 
     "rank": "#51", 
     "population": "11.4 million"
   }, 
   "brazil": {
     "gdp": "$1.8 trillion", 
     "ppp": 15238, 
+    "name": "brazil", 
     "rank": "#52", 
     "population": "207.7 million"
   }, 
   "belarus": {
     "gdp": "$47.4 billion", 
     "ppp": 18073, 
+    "name": "belarus", 
     "rank": "#60", 
     "population": "9.5 million"
   }, 
   "india": {
     "gdp": "$2.3 trillion", 
     "ppp": 6694, 
+    "name": "india", 
     "rank": "#32", 
     "population": "1.3 billion"
   }, 
   "azerbaijan": {
     "gdp": "$37.8 billion", 
     "ppp": 17453, 
+    "name": "azerbaijan", 
     "rank": "#67", 
     "population": "9.8 million"
   }, 
@@ -87,6 +95,7 @@
   "malaysia": {
     "gdp": "$296.4 billion", 
     "ppp": 27292, 
+    "name": "malaysia", 
     "rank": "#28", 
     "population": "31.2 million"
   }, 
@@ -101,6 +110,7 @@
   "qatar": {
     "gdp": "$152.5 billion", 
     "ppp": 125160, 
+    "name": "qatar", 
     "rank": "#48", 
     "population": "2.6 million"
   }, 
@@ -112,6 +122,7 @@
   "colombia": {
     "gdp": "$282.5 billion", 
     "ppp": 14126, 
+    "name": "colombia", 
     "rank": "#65", 
     "population": "48.7 million"
   }, 
@@ -155,6 +166,7 @@
   "saudi arabia": {
     "gdp": "$646.4 billion", 
     "ppp": 55331, 
+    "name": "saudi arabia", 
     "rank": "#41", 
     "population": "32.3 million"
   }, 
@@ -177,18 +189,21 @@
   "south africa": {
     "gdp": "$294.8 billion", 
     "ppp": 13291, 
+    "name": "south africa", 
     "rank": "#62", 
     "population": "55.9 million"
   }, 
   "panama": {
     "gdp": "$55.2 billion", 
     "ppp": 22989, 
+    "name": "panama", 
     "rank": "#55", 
     "population": "4.0 million"
   }, 
   "uruguay": {
     "gdp": "$52.4 billion", 
     "ppp": 21395, 
+    "name": "uruguay", 
     "rank": "#50", 
     "population": "3.4 million"
   }, 
@@ -224,12 +239,14 @@
   "egypt": {
     "gdp": "$336.3 billion", 
     "ppp": 12551, 
+    "name": "egypt", 
     "rank": "#70", 
     "population": "95.7 million"
   }, 
   "vietnam": {
     "gdp": "$202.6 billion", 
     "ppp": 6423, 
+    "name": "vietnam", 
     "rank": "#40", 
     "population": "92.7 million"
   }, 
@@ -249,6 +266,7 @@
   "united arab emirates": {
     "gdp": "$348.7 billion", 
     "ppp": 68092, 
+    "name": "united arab emirates", 
     "rank": "#25", 
     "population": "9.3 million"
   }, 
@@ -263,6 +281,7 @@
   "bolivia": {
     "gdp": "$33.8 billion", 
     "ppp": 7229, 
+    "name": "bolivia", 
     "rank": "#63", 
     "population": "10.9 million"
   }, 
@@ -277,12 +296,14 @@
   "ecuador": {
     "gdp": "$97.8 billion", 
     "ppp": 11185, 
+    "name": "ecuador", 
     "rank": "#59", 
     "population": "16.4 million"
   }, 
   "bahrain": {
     "gdp": "$31.9 billion", 
     "ppp": 50719, 
+    "name": "bahrain", 
     "rank": "#61", 
     "population": "1.4 million"
   }, 
@@ -297,6 +318,7 @@
   "israel": {
     "gdp": "$318.7 billion", 
     "ppp": 35220, 
+    "name": "israel", 
     "rank": "#35", 
     "population": "8.5 million"
   }, 
@@ -311,12 +333,14 @@
   "peru": {
     "gdp": "$192.1 billion", 
     "ppp": 12913, 
+    "name": "peru", 
     "rank": "#49", 
     "population": "31.8 million"
   }, 
   "singapore": {
     "gdp": "$297.0 billion", 
     "ppp": 87832, 
+    "name": "singapore", 
     "rank": "#18", 
     "population": "5.6 million"
   }, 
@@ -328,18 +352,21 @@
   "tanzania": {
     "gdp": "$47.4 billion", 
     "ppp": 3090, 
+    "name": "tanzania", 
     "rank": "#69", 
     "population": "55.6 million"
   }, 
   "costa rica": {
     "gdp": "$57.4 billion", 
     "ppp": 16434, 
+    "name": "costa rica", 
     "rank": "#47", 
     "population": "4.9 million"
   }, 
   "sri lanka": {
     "gdp": "$81.3 billion", 
     "ppp": 12285, 
+    "name": "sri lanka", 
     "rank": "#54", 
     "population": "21.2 million"
   }, 
@@ -354,6 +381,7 @@
   "guatemala": {
     "gdp": "$68.8 billion", 
     "ppp": 7945, 
+    "name": "guatemala", 
     "rank": "#68", 
     "population": "16.6 million"
   }, 
@@ -368,6 +396,7 @@
   "chile": {
     "gdp": "$247.0 billion", 
     "ppp": 24089, 
+    "name": "chile", 
     "rank": "#43", 
     "population": "17.9 million"
   }, 
@@ -379,24 +408,28 @@
   "thailand": {
     "gdp": "$406.8 billion", 
     "ppp": 16885, 
+    "name": "thailand", 
     "rank": "#30", 
     "population": "68.9 million"
   }, 
   "myanmar": {
     "gdp": "$67.4 billion", 
     "ppp": 5804, 
+    "name": "myanmar", 
     "rank": "#58", 
     "population": "52.9 million"
   }, 
   "kazakhstan": {
     "gdp": "$133.7 billion", 
     "ppp": 25167, 
+    "name": "kazakhstan", 
     "rank": "#64", 
     "population": "17.8 million"
   }, 
   "argentina": {
     "gdp": "$545.9 billion", 
     "ppp": 20053, 
+    "name": "argentina", 
     "rank": "#56", 
     "population": "43.8 million"
   }, 
@@ -411,6 +444,7 @@
   "kenya": {
     "gdp": "$70.5 billion", 
     "ppp": 3364, 
+    "name": "kenya", 
     "rank": "#57", 
     "population": "48.5 million"
   }, 
@@ -449,12 +483,14 @@
   "russia": {
     "gdp": "$1.3 trillion", 
     "ppp": 26926, 
+    "name": "russia", 
     "rank": "#38", 
     "population": "144.3 million"
   }, 
   "morocco": {
     "gdp": "$101.4 billion", 
     "ppp": 8160, 
+    "name": "morocco", 
     "rank": "#53", 
     "population": "35.3 million"
   }, 
@@ -493,18 +529,21 @@
   "china": {
     "gdp": "$11.2 trillion", 
     "ppp": 15395, 
+    "name": "china", 
     "rank": "#21", 
     "population": "1.4 billion"
   }, 
   "dominican republic": {
     "gdp": "$71.6 billion", 
     "ppp": 16071, 
+    "name": "dominican republic", 
     "rank": "#45", 
     "population": "10.6 million"
   }, 
   "philippines": {
     "gdp": "$304.9 billion", 
     "ppp": 7739, 
+    "name": "philippines", 
     "rank": "#37", 
     "population": "103.3 million"
   }, 

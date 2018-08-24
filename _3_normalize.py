@@ -2,7 +2,7 @@ import re
 
 import utils
 
-countries_numbers = utils.load_json('countries_numbers.json')
+countries_numbers = utils.load_json('_2_countries_numbers.json')
 
 attr_to_dist = {}
 for country_name, country_dict in countries_numbers.iteritems():
@@ -22,15 +22,19 @@ for country_name, country_dict in countries_numbers.iteritems():
 
 for country_name, country_dict in countries_numbers.iteritems():
   for key, val in country_dict.iteritems():
-    print 'key, val:', key, val
+    # Only handle numbers
+    try:
+      float(val)
+    except ValueError:
+      continue
+
     dist_dict = attr_to_dist[key]
-    print 'dist_dict:', dist_dict
     country_dict[key] = {
       'raw': val,
-      'norm:': (
+      'norm': (
         (country_dict[key] - dist_dict['min']) /
         (dist_dict['max'] - dist_dict['min'])
       )
     }
 
-utils.write_json('countries_normalized.json', countries_numbers)
+utils.write_json('_3_countries_normalized.json', countries_numbers)
