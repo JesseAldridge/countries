@@ -63,13 +63,6 @@
     "rank": "#52", 
     "population": "207.7 million"
   }, 
-  "belarus": {
-    "gdp": "$47.4 billion", 
-    "ppp": 18073, 
-    "name": "belarus", 
-    "rank": "#60", 
-    "population": "9.5 million"
-  }, 
   "india": {
     "gdp": "$2.3 trillion", 
     "ppp": 6694, 
@@ -107,12 +100,12 @@
     "mipex_score": 50, 
     "population": "8.7 million"
   }, 
-  "qatar": {
-    "gdp": "$152.5 billion", 
-    "ppp": 125160, 
-    "name": "qatar", 
-    "rank": "#48", 
-    "population": "2.6 million"
+  "belarus": {
+    "gdp": "$47.4 billion", 
+    "ppp": 18073, 
+    "name": "belarus", 
+    "rank": "#60", 
+    "population": "9.5 million"
   }, 
   "malta": {
     "mipex_score": 40, 
@@ -163,12 +156,13 @@
     "mipex_score": 68, 
     "population": "36.3 million"
   }, 
-  "saudi arabia": {
-    "gdp": "$646.4 billion", 
-    "ppp": 55331, 
-    "name": "saudi arabia", 
-    "rank": "#41", 
-    "population": "32.3 million"
+  "qatar": {
+    "gdp": "$152.5 billion", 
+    "name": "qatar", 
+    "rank": "#48", 
+    "ppp": 125160, 
+    "mipex_score": "20", 
+    "population": "2.6 million"
   }, 
   "italy": {
     "gdp": "$1.8 trillion", 
@@ -355,6 +349,13 @@
     "name": "tanzania", 
     "rank": "#69", 
     "population": "55.6 million"
+  }, 
+  "saudi arabia": {
+    "gdp": "$646.4 billion", 
+    "ppp": 55331, 
+    "name": "saudi arabia", 
+    "rank": "#41", 
+    "population": "32.3 million"
   }, 
   "costa rica": {
     "gdp": "$57.4 billion", 

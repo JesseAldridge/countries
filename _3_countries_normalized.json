@@ -34,7 +34,7 @@
     }, 
     "mipex_score": {
       "raw": 45, 
-      "norm": 0
+      "norm": 0.43103448275862066
     }, 
     "population": {
       "raw": 19700000.0, 
@@ -76,7 +76,7 @@
     }, 
     "mipex_score": {
       "raw": 44, 
-      "norm": 0
+      "norm": 0.41379310344827586
     }, 
     "population": {
       "raw": 127000000.0, 
@@ -99,7 +99,7 @@
     }, 
     "mipex_score": {
       "raw": 45, 
-      "norm": 0
+      "norm": 0.43103448275862066
     }, 
     "population": {
       "raw": 10600000.0, 
@@ -109,7 +109,7 @@
   "estonia": {
     "mipex_score": {
       "raw": 46, 
-      "norm": 0
+      "norm": 0.4482758620689655
     }, 
     "name": "estonia", 
     "rank": {
@@ -209,7 +209,7 @@
     }, 
     "mipex_score": {
       "raw": 63, 
-      "norm": 0
+      "norm": 0.7413793103448276
     }, 
     "population": {
       "raw": 323100000.0, 
@@ -251,7 +251,7 @@
     }, 
     "mipex_score": {
       "raw": 50, 
-      "norm": 0
+      "norm": 0.5172413793103449
     }, 
     "population": {
       "raw": 8700000.0, 
@@ -280,7 +280,7 @@
   "malta": {
     "mipex_score": {
       "raw": 40, 
-      "norm": 0
+      "norm": 0.3448275862068966
     }, 
     "name": "malta", 
     "rank": {
@@ -323,7 +323,7 @@
     }, 
     "mipex_score": {
       "raw": 44, 
-      "norm": 0
+      "norm": 0.41379310344827586
     }, 
     "population": {
       "raw": 10700000.0, 
@@ -346,7 +346,7 @@
     }, 
     "mipex_score": {
       "raw": 45, 
-      "norm": 0
+      "norm": 0.43103448275862066
     }, 
     "population": {
       "raw": 9800000.0, 
@@ -369,7 +369,7 @@
     }, 
     "mipex_score": {
       "raw": 70, 
-      "norm": 0
+      "norm": 0.8620689655172413
     }, 
     "population": {
       "raw": 4700000.0, 
@@ -392,7 +392,7 @@
     }, 
     "mipex_score": {
       "raw": 68, 
-      "norm": 0
+      "norm": 0.8275862068965517
     }, 
     "population": {
       "raw": 36300000.0, 
@@ -402,7 +402,7 @@
   "cyprus": {
     "mipex_score": {
       "raw": 35, 
-      "norm": 0
+      "norm": 0.25862068965517243
     }, 
     "name": "cyprus", 
     "rank": {
@@ -426,7 +426,7 @@
     }, 
     "mipex_score": {
       "raw": 25, 
-      "norm": 0
+      "norm": 0.08620689655172414
     }, 
     "population": {
       "raw": 79500000.0, 
@@ -449,7 +449,7 @@
     }, 
     "mipex_score": {
       "raw": 41, 
-      "norm": 0
+      "norm": 0.3620689655172414
     }, 
     "population": {
       "raw": 37900000.0, 
@@ -461,14 +461,18 @@
       "raw": 152500000000.0, 
       "norm": 0.006719684691718312
     }, 
-    "ppp": {
-      "raw": 125160, 
-      "norm": 1
-    }, 
     "name": "qatar", 
     "rank": {
       "raw": 48.0, 
       "norm": 0.6811594202898551
+    }, 
+    "ppp": {
+      "raw": 125160, 
+      "norm": 1
+    }, 
+    "mipex_score": {
+      "raw": 20.0, 
+      "norm": 0.0
     }, 
     "population": {
       "raw": 2600000.0, 
@@ -491,7 +495,7 @@
     }, 
     "mipex_score": {
       "raw": 59, 
-      "norm": 0
+      "norm": 0.6724137931034483
     }, 
     "population": {
       "raw": 60600000.0, 
@@ -514,7 +518,7 @@
     }, 
     "mipex_score": {
       "raw": 75, 
-      "norm": 0
+      "norm": 0.9482758620689655
     }, 
     "population": {
       "raw": 10300000.0, 
@@ -581,7 +585,7 @@
   "lithuania": {
     "mipex_score": {
       "raw": 37, 
-      "norm": 0
+      "norm": 0.29310344827586204
     }, 
     "name": "lithuania", 
     "rank": {
@@ -605,7 +609,7 @@
     }, 
     "mipex_score": {
       "raw": 57, 
-      "norm": 0
+      "norm": 0.6379310344827587
     }, 
     "population": {
       "raw": 583000.0, 
@@ -628,7 +632,7 @@
     }, 
     "mipex_score": {
       "raw": 54, 
-      "norm": 0
+      "norm": 0.5862068965517241
     }, 
     "population": {
       "raw": 66900000.0, 
@@ -651,7 +655,7 @@
     }, 
     "mipex_score": {
       "raw": 57, 
-      "norm": 0
+      "norm": 0.6379310344827587
     }, 
     "population": {
       "raw": 65600000.0, 
@@ -699,7 +703,7 @@
   "slovakia": {
     "mipex_score": {
       "raw": 37, 
-      "norm": 0
+      "norm": 0.29310344827586204
     }, 
     "name": "slovakia", 
     "rank": {
@@ -723,7 +727,7 @@
     }, 
     "mipex_score": {
       "raw": 52, 
-      "norm": 0
+      "norm": 0.5517241379310345
     }, 
     "population": {
       "raw": 4800000.0, 
@@ -765,7 +769,7 @@
     }, 
     "mipex_score": {
       "raw": 53, 
-      "norm": 0
+      "norm": 0.5689655172413793
     }, 
     "population": {
       "raw": 51200000.0, 
@@ -807,7 +811,7 @@
     }, 
     "mipex_score": {
       "raw": 69, 
-      "norm": 0
+      "norm": 0.8448275862068966
     }, 
     "population": {
       "raw": 5200000.0, 
@@ -906,7 +910,7 @@
     }, 
     "mipex_score": {
       "raw": 66, 
-      "norm": 0
+      "norm": 0.7931034482758621
     }, 
     "population": {
       "raw": 24100000.0, 
@@ -954,7 +958,7 @@
   "iceland": {
     "mipex_score": {
       "raw": 45, 
-      "norm": 0
+      "norm": 0.43103448275862066
     }, 
     "name": "iceland", 
     "rank": {
@@ -1035,7 +1039,7 @@
     }, 
     "mipex_score": {
       "raw": 44, 
-      "norm": 0
+      "norm": 0.41379310344827586
     }, 
     "population": {
       "raw": 2100000.0, 
@@ -1077,7 +1081,7 @@
     }, 
     "mipex_score": {
       "raw": 61, 
-      "norm": 0
+      "norm": 0.7068965517241379
     }, 
     "population": {
       "raw": 82700000.0, 
@@ -1106,7 +1110,7 @@
   "belgium": {
     "mipex_score": {
       "raw": 67, 
-      "norm": 0
+      "norm": 0.8103448275862069
     }, 
     "name": "belgium", 
     "rank": {
@@ -1206,7 +1210,7 @@
     }, 
     "mipex_score": {
       "raw": 60, 
-      "norm": 0
+      "norm": 0.6896551724137931
     }, 
     "population": {
       "raw": 46400000.0, 
@@ -1248,7 +1252,7 @@
     }, 
     "mipex_score": {
       "raw": 60, 
-      "norm": 0
+      "norm": 0.6896551724137931
     }, 
     "population": {
       "raw": 17000000.0, 
@@ -1271,7 +1275,7 @@
     }, 
     "mipex_score": {
       "raw": 59, 
-      "norm": 0
+      "norm": 0.6724137931034483
     }, 
     "population": {
       "raw": 5700000.0, 
@@ -1313,7 +1317,7 @@
     }, 
     "mipex_score": {
       "raw": 69, 
-      "norm": 0
+      "norm": 0.8448275862068966
     }, 
     "population": {
       "raw": 5500000.0, 
@@ -1374,7 +1378,7 @@
     }, 
     "mipex_score": {
       "raw": 78, 
-      "norm": 1
+      "norm": 1.0
     }, 
     "population": {
       "raw": 9900000.0, 
@@ -1397,7 +1401,7 @@
     }, 
     "mipex_score": {
       "raw": 31, 
-      "norm": 0
+      "norm": 0.1896551724137931
     }, 
     "population": {
       "raw": 2000000.0, 
@@ -1420,7 +1424,7 @@
     }, 
     "mipex_score": {
       "raw": 43, 
-      "norm": 0
+      "norm": 0.39655172413793105
     }, 
     "population": {
       "raw": 4200000.0, 
@@ -1443,7 +1447,7 @@
     }, 
     "mipex_score": {
       "raw": 49, 
-      "norm": 0
+      "norm": 0.5
     }, 
     "population": {
       "raw": 8400000.0, 
@@ -1523,7 +1527,7 @@
     }, 
     "mipex_score": {
       "raw": 42, 
-      "norm": 0
+      "norm": 0.3793103448275862
     }, 
     "population": {
       "raw": 7100000.0, 

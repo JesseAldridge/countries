@@ -22,6 +22,14 @@
     "mipex_score": 69, 
     "population": 5500000.0
   }, 
+  "japan": {
+    "gdp": 4900000000000.0, 
+    "name": "japan", 
+    "rank": 14.0, 
+    "ppp": 41220, 
+    "mipex_score": 44, 
+    "population": 127000000.0
+  }, 
   "czech republic": {
     "gdp": 192900000000.0, 
     "name": "czech republic", 
@@ -48,14 +56,6 @@
     "name": "tunisia", 
     "rank": 51.0, 
     "population": 11400000.0
-  }, 
-  "greece": {
-    "gdp": 194600000000.0, 
-    "name": "greece", 
-    "rank": 29.0, 
-    "ppp": 26829, 
-    "mipex_score": 44, 
-    "population": 10700000.0
   }, 
   "india": {
     "gdp": 2300000000000.0, 
@@ -117,13 +117,13 @@
     "rank": 65.0, 
     "population": 48700000.0
   }, 
-  "japan": {
-    "gdp": 4900000000000.0, 
-    "name": "japan", 
-    "rank": 14.0, 
-    "ppp": 41220, 
+  "greece": {
+    "gdp": 194600000000.0, 
+    "name": "greece", 
+    "rank": 29.0, 
+    "ppp": 26829, 
     "mipex_score": 44, 
-    "population": 127000000.0
+    "population": 10700000.0
   }, 
   "turkey": {
     "gdp": 857700000000.0, 
@@ -163,9 +163,10 @@
   }, 
   "qatar": {
     "gdp": 152500000000.0, 
-    "ppp": 125160, 
     "name": "qatar", 
     "rank": 48.0, 
+    "ppp": 125160, 
+    "mipex_score": 20.0, 
     "population": 2600000.0
   }, 
   "italy": {

@@ -1,5 +1,7 @@
 import parse, json
 
+import utils
+
 '''
 1
 Sweden
@@ -47,9 +49,7 @@ def txt_dump_to_dicts():
 
 def main():
   country_dicts = txt_dump_to_dicts()
-  countries_json = json.dumps(country_dicts, indent=2)
-  with open('countries_mipex.json', 'w') as f:
-    f.write(countries_json)
+  utils.write_json('_0_countries_mipex.json', country_dicts)
 
 if __name__ == '__main__':
   main()
