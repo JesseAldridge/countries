@@ -1,34 +1,9 @@
 # -*- coding: utf-8 -*- #
 import json
 
+import parse
+
 # https://www.usnews.com/news/best-countries/quality-of-life-full-list
-
-class Parser:
-  def __init__(self, text):
-    self.lines = text.splitlines()
-    self.line_index = 0
-
-  def line(self):
-    return self.lines[self.line_index]
-
-  def apply_cmd(self, cmd_str, params):
-    getattr(self, cmd_str)(*params)
-
-  def advance(self):
-    self.line_index += 1
-
-  def stop_after(self, stop_line):
-    for _ in range(10 ** 6):
-      if self.lines[self.line_index].strip() == stop_line:
-        break
-      self.line_index += 1
-    self.line_index += 1
-
-  def is_done(self):
-    return self.line_index >= len(self.lines)
-
-  def status_str(self):
-    return 'line {}/{}'.format(self.line_index, len(self.lines))
 
 '''
 format:
@@ -56,7 +31,7 @@ Denmark
 def txt_dump_to_dicts():
   with open('us_news_dump.txt') as f:
     text = f.read()
-  parser = Parser(text)
+  parser = parse.Parser(text)
   country_dicts = []
   for _ in range(10 ** 6):
     print parser.status_str()
@@ -93,7 +68,7 @@ def txt_dump_to_dicts():
 def main():
   country_dicts = txt_dump_to_dicts()
   countries_json = json.dumps(country_dicts, indent=2)
-  with open('countries.json', 'w') as f:
+  with open('countries_us_news.json', 'w') as f:
     f.write(countries_json)
 
 if __name__ == '__main__':
