@@ -13,10 +13,10 @@ for country_name, country_dict in countries_numbers.iteritems():
     except ValueError:
       continue
 
-    print 'attr_to_dist:', attr_to_dist
+    print 'attr_to_aggrs:', attr_to_aggrs
 
-    attr_to_dist.setdefault(key, {})
-    dist_dict = attr_to_dist[key]
+    attr_to_aggrs.setdefault(key, {})
+    dist_dict = attr_to_aggrs[key]
 
     old_min = dist_dict.get('min')
     new_min = val if old_min is None else min(val, old_min)
@@ -33,7 +33,7 @@ for country_name, country_dict in countries_numbers.iteritems():
 
 countries_dict = {
   'attr_to_aggrs': attr_to_aggrs,
-  'countries': countries,
+  'countries': countries_numbers,
 }
 
 utils.write_json('_3_countries_aggregated.json', countries_dict)
