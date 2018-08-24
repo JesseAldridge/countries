@@ -1,8 +1,8 @@
 import re
 
-import utils
+import _0_utils
 
-countries_merged = utils.load_json('_1_countries_merged.json')
+countries_merged = _0_utils.load_json('_1_countries_merged.json')
 
 for country_name, country_dict in countries_merged.iteritems():
   for key, val in country_dict.iteritems():
@@ -34,4 +34,4 @@ for country_name, country_dict in countries_merged.iteritems():
         base_val = round(base_val, 4) # floating point imprecision
       country_dict[key] = base_val
 
-utils.write_json('_2_countries_numbers.json', countries_merged)
+_0_utils.write_json('_2_countries_numbers.json', countries_merged)

@@ -1,52 +1,63 @@
 import json, re
 
-import utils
+import _0_utils
 
-name_to_merged = {}
-
-def normalize_name(name):
-  norm_name = name.lower()
+def merge_with_main(country_dict, name_to_country):
+  for name_key in country_dict:
+    if 'name' in name_key:
+      break
+  lower_name = country_dict[name_key].lower()
   alias_to_norm_name = {
     'usa': 'united states',
   }
-  return alias_to_norm_name.get(norm_name, norm_name)
+  del country_dict[name_key]
+  norm_name = alias_to_norm_name.get(lower_name, lower_name)
+  country_dict['norm_name'] = norm_name
+  name_to_country.setdefault(norm_name, {'name': norm_name})
+  for key, attr in country_dict.iteritems():
+    name_to_country[norm_name][key] = attr
 
-# Mipex
 
-countries_mipex = utils.load_json('_0_countries_mipex.json')
-for country_mipex in countries_mipex:
-  country_mipex['mipex_score'] = int(country_mipex['score'].split()[0])
-  del country_mipex['score']
+def merge_all_with_main(country_dicts, name_to_country):
+  for country_dict in country_dicts:
+    merge_with_main(country_dict, name_to_country)
 
-# Augmenting Mipex with guesses
+def main():
+  name_to_country = {}
 
-extra_mipex = utils.load_json('_0_countries_mipex_guess.json')
-countries_mipex += extra_mipex
+  # Mipex
 
-for country_mipex in countries_mipex:
-  norm_name = normalize_name(country_mipex['name'])
-  del country_mipex['name']
-  name_to_merged.setdefault(norm_name, {})
-  for key, attr in country_mipex.iteritems():
-    name_to_merged[norm_name][key] = attr
-  name_to_merged[norm_name]['name'] = norm_name
+  countries_mipex = _0_utils.load_json('_0_countries_mipex.json')
+  for country_mipex in countries_mipex:
+    country_mipex['mipex_score'] = int(country_mipex['score'].split()[0])
+    del country_mipex['score']
 
-# US News
+  # Augmenting Mipex with guesses
+  extra_mipex = _0_utils.load_json('_0_countries_mipex_guess.json')
 
-countries_us_news = utils.load_json('_0_countries_us_news.json')
-for country_us_news in countries_us_news:
-  del country_us_news['notes']
-  country_us_news['ppp'] = int(re.sub('[^0-9]', '', country_us_news['ppp']))
+  merge_all_with_main(countries_mipex + extra_mipex, name_to_country)
 
-for country_us_news in countries_us_news:
-  norm_name = normalize_name(country_us_news['country_name'])
-  del country_us_news['country_name']
-  name_to_merged.setdefault(norm_name, {})
-  for key, attr in country_us_news.iteritems():
-    name_to_merged[norm_name][key] = attr
-  name_to_merged[norm_name]['name'] = norm_name
+  # US News
 
-for country_dict in name_to_merged.values():
-  assert len(country_dict) > 2
+  countries_us_news = _0_utils.load_json('_0_countries_us_news.json')
+  for country_us_news in countries_us_news:
+    del country_us_news['notes']
 
-utils.write_json('_1_countries_merged.json', name_to_merged)
+  # Augment US News with manually looked up facts
+  countries_extra = _0_utils.load_json('_0_countries_manual.json')
+
+  merge_all_with_main(countries_us_news + countries_extra, name_to_country)
+
+  # GDP PPP from Wikipedia
+  countries_gdp_ppp = _0_utils.load_json('_0_countries_gdp_ppp.json')
+  merge_all_with_main(countries_gdp_ppp, name_to_country)
+
+  # Sanity check
+  for country_dict in name_to_country.values():
+    assert len(country_dict) > 2
+
+  # Output
+  _0_utils.write_json('_1_countries_merged.json', name_to_country)
+
+if __name__ == '__main__':
+  main()

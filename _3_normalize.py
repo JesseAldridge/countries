@@ -1,8 +1,8 @@
 import re
 
-import utils
+import _0_utils
 
-countries_numbers = utils.load_json('_2_countries_numbers.json')
+countries_numbers = _0_utils.load_json('_2_countries_numbers.json')
 
 attr_to_aggrs = {}
 for country_name, country_dict in countries_numbers.iteritems():
@@ -36,4 +36,4 @@ countries_dict = {
   'countries': countries_numbers,
 }
 
-utils.write_json('_3_countries_aggregated.json', countries_dict)
+_0_utils.write_json('_3_countries_aggregated.json', countries_dict)

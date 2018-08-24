@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*- #
-import json
+import json, codecs
 
-import parse
+import _0_parse, _0_utils
 
 # https://www.usnews.com/news/best-countries/quality-of-life-full-list
 
@@ -29,9 +29,9 @@ Denmark
 '''
 
 def txt_dump_to_dicts():
-  with open('us_news_dump.txt') as f:
+  with codecs.open('us_news_dump.txt', encoding='utf8') as f:
     text = f.read()
-  parser = parse.Parser(text)
+  parser = _0_parse.Parser(text)
   country_dicts = []
   for _ in range(10 ** 6):
     print parser.status_str()
@@ -40,7 +40,7 @@ def txt_dump_to_dicts():
 
     section_descriptions = [
       'country_name', 'rank', '_', '_', '_', '_', ('notes', 'stop_after', 'GDP'), 'gdp', '_',
-      'population', '_', 'ppp', '_', '_',
+      'population', '_', 'ppp_pc', '_', '_',
     ]
 
     country_dict = {}
@@ -61,15 +61,13 @@ def txt_dump_to_dicts():
     if not country_dict:
       break
     print ' country_dict:', json.dumps(country_dict, indent=2)
-    assert country_dict['ppp'].startswith('$')
+    assert country_dict['ppp_pc'].startswith('$')
     country_dicts.append(country_dict)
   return country_dicts
 
 def main():
   country_dicts = txt_dump_to_dicts()
-  countries_json = json.dumps(country_dicts, indent=2)
-  with open('countries_us_news.json', 'w') as f:
-    f.write(countries_json)
+  _0_utils.write_json('_0_countries_us_news.json', country_dicts)
 
 if __name__ == '__main__':
   main()
