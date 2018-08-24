@@ -1,20 +1,20 @@
-qatar 0.5
-sweden 0.34
-united states 0.33
-china 0.3
-japan 0.09
-germany 0.06
-india 0.06
-brazil 0.05
-united kingdom 0.05
-france 0.04
-russia 0.03
-italy 0.03
-canada 0.03
-mexico 0.03
-south korea 0.02
-indonesia 0.02
-australia 0.02
-spain 0.02
-saudi arabia 0.02
-turkey 0.01
+european union 0.91
+united states 0.86
+china 0.8
+germany 0.36
+sweden 0.35
+canada 0.33
+portugal 0.32
+japan 0.3
+australia 0.3
+united kingdom 0.3
+norway 0.29
+slovakia 0.29
+new zealand 0.29
+italy 0.29
+finland 0.29
+belgium 0.29
+france 0.28
+spain 0.28
+india 0.27
+netherlands 0.26
