@@ -26,7 +26,7 @@ def main():
     return score(country_dict, attr_to_aggrs)
 
   for country_dict in sorted(country_dicts.values(), key=score_country, reverse=True)[:20]:
-    print country_dict['name'], round(score_country(country_dict), 2)
+    print(country_dict['name'], round(score_country(country_dict), 2))
 
 if __name__ == '__main__':
   main()

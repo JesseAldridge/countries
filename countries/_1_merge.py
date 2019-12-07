@@ -14,7 +14,7 @@ def merge_with_main(country_dict, name_to_country):
   norm_name = alias_to_norm_name.get(lower_name, lower_name)
   country_dict['norm_name'] = norm_name
   name_to_country.setdefault(norm_name, {'name': norm_name})
-  for key, attr in country_dict.iteritems():
+  for key, attr in country_dict.items():
     name_to_country[norm_name][key] = attr
 
 
@@ -51,6 +51,14 @@ def main():
   # GDP PPP from Wikipedia
   countries_gdp_ppp = _0_utils.load_json('_0_countries_gdp_ppp.json')
   merge_all_with_main(countries_gdp_ppp, name_to_country)
+
+  # HDI from Wikipedia
+  countries_hdi = _0_utils.load_csv('_0_hdi.csv')
+  merge_all_with_main(countries_hdi, name_to_country)
+
+  # https://www.heritage.org/index/
+  countries_hdi = _0_utils.load_csv('_0_heritage.csv')
+  merge_all_with_main(countries_hdi, name_to_country)
 
   # Sanity check
   for country_dict in name_to_country.values():

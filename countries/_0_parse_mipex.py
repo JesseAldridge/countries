@@ -1,6 +1,6 @@
 import json
 
-import parse, utils
+import _0_parse, _0_utils
 
 '''
 1
@@ -16,10 +16,10 @@ Portugal
 def txt_dump_to_dicts():
   with open('mipex_dump.txt') as f:
     text = f.read()
-  parser = parse.Parser(text)
+  parser = _0_parse.Parser(text)
   country_dicts = []
   for _ in range(10 ** 6):
-    print parser.status_str()
+    print(parser.status_str())
     if parser.is_done():
       break
 
@@ -42,14 +42,14 @@ def txt_dump_to_dicts():
 
     if not country_dict:
       break
-    print ' country_dict:', json.dumps(country_dict, indent=2)
+    print(' country_dict:', json.dumps(country_dict, indent=2))
     assert country_dict['name'].split()[0].isalpha()
     country_dicts.append(country_dict)
   return country_dicts
 
 def main():
   country_dicts = txt_dump_to_dicts()
-  utils.write_json('_0_countries_mipex.json', country_dicts)
+  _0_utils.write_csv('_0_countries_mipex.csv', country_dicts)
 
 if __name__ == '__main__':
   main()

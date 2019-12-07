@@ -1,0 +1,101 @@
+RANK  COMPANY CITY  EMPLOYEES
+1 Silver Lake Menlo Park  320,000
+2 Wells Fargo San Francisco 270,600
+3 Deutsche Telekom  Mountain View 216,550
+4 The Walt Disney Company Burbank 195,000
+5 Oracle  Redwood City  138,000
+6 Gap San Francisco 135,000
+7 Kaiser Permanente Oakland 116,190
+8 Apple Cupertino 116,000
+9 SYNNEX  Fremont 108,000
+10  Intel Santa Clara 106,000
+11  Concentrix  Fremont 100,000
+12  Alorica Irvine  92,000
+13  AECOM Los Angeles 87,000
+14  Ross Stores Dublin  78,600
+15  Alphabet  Mountain View 75,606
+16  Western Digital San Jose  67,629
+17  McKesson  San Francisco 64,500
+18  Google  Mountain View 61,814
+19  Dignity Health  San Francisco 54,938
+20  Bechtel San Francisco 52,700
+21  Allied Universal  Bakersfield 50,162
+22  Advantage Solutions Irvine  48,000
+23  Infineon Technologies Milpitas  36,300
+24  Trader Joe’s  Monrovia  36,076
+25  Los Angeles Unified School District Los Angeles 35,720
+26  Sanmina San Jose  34,958
+27  Mattel  El Segundo  32,000
+28  Dole  Thousand Oaks 30,500
+29  Qualcomm  San Diego 30,500
+30  TTM Technologies  Santa Ana 28,360
+31  Ingram Micro  Irvine  27,700
+32  Honda Torrance  26,000
+33  Princess Cruises  Santa Clarita 25,000
+34  Avery Dennison  Glendale  25,000
+35  State of California Sacramento  24,190
+36  Pacific Gas and Electric  San Francisco 24,000
+37  BJ’s Restaurants  Huntington Beach  22,220
+38  Jack in the Box San Diego 22,200
+39  Needle Holdings Inc Los Angeles 22,000
+40  Molina Healthcare Long Beach  21,000
+41  Vons Co Coachella 20,750
+42  In-N-Out Burger Irvine  19,926
+43  First American Financial  Santa Ana 19,531
+44  Ensign Services Mission Viejo 19,482
+45  Williams Sonoma San Francisco 19,400
+46  Amgen Thousand Oaks 19,200
+47  VMware  Palo Alto 18,905
+48  PayPal  San Jose  18,100
+49  Tesla Palo Alto 17,782
+50  Save Mart Supermarkets  Modesto 17,500
+51  99 Cents Only Stores  Commerce  17,200
+52  Charles Schwab  San Francisco 16,900
+53  Sempra Energy San Diego 16,575
+54  Robert Half Menlo Park  16,400
+55  Stater Bros.  San Bernardino  16,100
+56  Tetra Tech  Pasadena  16,000
+57  Applied Materials Santa Clara 15,600
+58  UC Davis  Davis 14,810
+59  VCA Los Angeles 14,700
+60  Reliance Steel & Aluminum Co. Los Angeles 14,500
+61  GUESS Los Angeles 14,300
+62  California Pizza Kitchen  Los Angeles 14,000
+63  Finisar Sunnyvale 14,000
+64  Leonard Green & Partners  Los Angeles 13,666
+65  Levi Strauss & Co.  San Francisco 13,200
+66  Agilent Technologies  Santa Clara 13,000
+67  eBay  San Jose  12,600
+68  Stanford University Stanford  12,500
+69  City of Los Angeles Los Angeles 12,260
+70  SolarCity Corporation San Mateo 12,243
+71  Fillmore Capital Partners San Francisco 12,000
+72  Beckman Coulter Brea  11,900
+73  Tutor Perini  Los Angeles 11,603
+74  San Diego Data Processing San Diego 11,130
+75  Edwards Lifesciences  Irvine  11,100
+76  The Yucaipa Companies LLC Los Angeles 11,000
+77  Leoch Battery Corporation Lake Forest 11,000
+78  Synopsys  Mountain View 10,669
+79  LA Fitness  Irvine  10,650
+80  NVIDIA  Santa Clara 10,299
+81  John Muir Health  Concord 10,243
+82  LinkedIn  Sunnyvale 10,113
+83  General Atomics San Diego 10,109
+84  Magic Johnson Los Angeles 10,100
+85  NetApp  Sunnyvale 10,100
+86  Johnson’s Baby  Sacramento  10,001
+87  Sacramento County Sacramento  10,000
+88  Yasheng Group Redwood City  10,000
+89  Yahoo Sunnyvale 10,000
+90  Jamba Juice Emeryville  9,951
+91  Source One Staffing Irwindale 9,500
+92  Lam Research  Fremont 9,400
+93  Pentron Orange  9,236
+94  Gilead Sciences Foster City 9,000
+95  Autodesk  San Rafael  9,000
+96  Orange County Government  Santa Ana 9,000
+97  DFS Group San Francisco 9,000
+98  Teledyne Technologies Thousand Oaks 8,970
+99  Charlotte Russe San Diego 8,961
+100 Electronic Arts Redwood City  8,800

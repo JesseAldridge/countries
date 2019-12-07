@@ -31,7 +31,7 @@ if __name__ == '__main__':
     parser = Parser('foo\nbar\nbaz\nother thing\nok ok\n')
 
     def check(expected):
-      print parser.line()
+      print(parser.line())
       assert parser.line() == expected
 
     check('foo')
